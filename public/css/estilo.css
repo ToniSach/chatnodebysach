@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+
+}
+
+header {
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+.hola {
+    align-self: center;
+    text-align: center;
+}
+
+

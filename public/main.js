@@ -1,4 +1,4 @@
-var socket = io.connect('https://chatnodebysach2.herokuapp.com/', { 'forceNew': true });
+var socket = io.connect('http://localhost:3000', { 'forceNew': true });
 //escuchamos el evento messages
 // data tendr� el array de mensajes  que env�a el servidor
 socket.on('messages', function(data) {  

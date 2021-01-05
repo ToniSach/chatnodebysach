@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">
+  <title>Chat web</title>
+  <script src="../socket.io.js"></script>
+  <script src="../main.js"></script>
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/estiloch.css">
+  <style>
+    .addScroll{
+      overflow-y:auto;
+      height: 300px;
+    }
+  </style>
+</head>  
+<body class="row align-items-center justify-content-center">
+  <header class="headss">
+    <br>
+    <h3 class="hola">HealtKnife-Chat</h3>
+    <a href="/" class="btn btn-danger" id="tusi" >Cerrar Sesión</a>
+</header>  
+<div class="container">
+  <h5></h5>
+</div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="card-body addScroll">
+          <div id="messages"></div>
+        </div>
+          <br/>
+          <form onsubmit="return addMessage(this)">
+            <div class="form-group">
+              <input class="form-control" type="text" id="username" value="<%= typep %>_<%= nombre %>" >
+            </div>
+            <div class="form-group">
+              <!--arreglar con required :B-->
+              <input class="form-control" type="text" id="texto" placeholder="Mensaje..." required>
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-info">
+          </form>
+      </div>  
+    </div>
+  </div>
+</body>  
+</html>
