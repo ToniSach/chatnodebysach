@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniSach/chatnodebysach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ToniSach/chatnodebysach/issues"
+  },
+  "homepage": "https://github.com/ToniSach/chatnodebysach#readme",
+  "description": ""
+}
