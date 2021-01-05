@@ -1,4 +1,4 @@
-var socket = io.connect('https://git.heroku.com/healtknifechat.git', { 'forceNew': true });
+var socket = io.connect('https://git.heroku.com/healtknifechat.com/', { 'forceNew': true });
 //escuchamos el evento messages
 // data tendr� el array de mensajes  que env�a el servidor
 socket.on('messages', function(data) {  
