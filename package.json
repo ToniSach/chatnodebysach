@@ -1,7 +1,6 @@
 {
   "name": "chat",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "dependencies": {
     "cookie-parser": "^1.4.5",
@@ -17,5 +16,14 @@
     "start": "node main"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniSach/chatnodebysach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ToniSach/chatnodebysach/issues"
+  },
+  "homepage": "https://github.com/ToniSach/chatnodebysach#readme",
+  "description": ""
 }
